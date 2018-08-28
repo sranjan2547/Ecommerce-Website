@@ -1,0 +1,80 @@
+.menu-img {
+    display: none;
+}
+
+header>div {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.menu-img img {
+    width: 30px;
+}
+
+.empty {
+    width: 10px;
+    height: 10px;
+}
+
+.cart-icon {
+    width: 4%;
+}
+
+.cart-icon img {
+    width: 100%;
+}
+
+.mens-outerwear-img img {
+    width: 100%;
+}
+
+.ladies-outerwear-img img {
+    width: 100%;
+}
+
+.tshirts img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav>div {
+    margin: 10px;
+}
+
+.shop-now {
+    border: solid black;
+}
+
+.shop-now {
+    border: 2px solid black;
+    width: 168px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #202020;
+    /* margin: 0 38%; */
+    
+}
+.mens-outerwear, .ladies-outerwear{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: #202020;
+    font-weight: lighter;
+    font-size: 122%;
+}
