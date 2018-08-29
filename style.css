@@ -124,3 +124,31 @@ padding: 0px 18px;
 footer a{
     color: #0000008f;
 }
+/*mens_outerwear */
+.text{
+    margin-top: 0;
+    font-size: 85%;
+    color: #080808b5;
+}
+.mens-outerwear>div h2{
+    margin-bottom: 0;
+}
+.select-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2em;
+    padding: 0px 20px;
+}
+.select-tshirt>div img{
+    width: 100%;
+}
+.select-tshirt>div p{
+    text-align: center;
+    font-weight: 600;
+}
+.select-tshirt>div>.price{
+    text-align: center;
+    font-weight: 100;
+    font-size: 85%;
+    color: #000000bd;
+}
