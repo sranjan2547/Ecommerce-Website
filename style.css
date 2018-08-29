@@ -222,13 +222,15 @@ outline: none;
 .cart-items{
     display: flex;
     padding: 0 24px 48px 24px;
+    justify-content: space-between;
 }
 .cart-items>div img{
     width: 100%;
 }
 .cross-icon{
     width: 18px;
-    float: left;
+    padding-top: 24px;
+  
 }
 .cart-items>.tshirt-image{
     height: 72px;
@@ -238,3 +240,19 @@ outline: none;
     margin-left: 17px;
     padding-top: 27px;
 }
+.cart-items>div select{
+    border: none;
+    background: 0;
+    color: #000000ab;
+    outline: none;
+}
+.cart-items .quantity{
+    padding-top: 24px;
+}
+.size{
+    padding-top: 9px;
+}
+.amount{
+    padding-top: 24px;
+}
+
