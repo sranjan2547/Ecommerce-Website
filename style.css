@@ -255,6 +255,7 @@ footer a {
 .cart-items-heading p{
  
     color: #0c0c0ca3;
+    margin-top: 8px;
 }
 .cart-items-heading h1{
 
@@ -320,12 +321,107 @@ footer a {
 .checkout-box>div{
     float: right;
     display:flex;
-    justify-content: space-around;
-    width:50%;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 60px;
 }
+
 .cart-footer{
     margin-top: 226px;
 }
 .cart-items-heading{
     margin-top: 64px;
+}
+.checkout-box>div span{
+    margin: 0 64px 0 24px;
+}
+/* end of cart */
+/* checkout*/
+.details{
+    display: flex;
+flex-direction: column;
+width: 100%;
+
+}
+.payment-details{
+    display: flex;
+flex-direction: column;
+width: 100%;
+margin-left: 80px;
+}
+
+.form-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 24px 48px 24px;
+    max-width: 900px;
+    overflow: hidden;
+}
+.form-section input{
+    display: block;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+    outline: none;
+}
+.form-section select{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;;
+    background: white;
+}
+
+.card-details div{
+    display: inline;
+}
+.order-item-list>.item-name{
+    margin-left:0; 
+}
+.card-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.details input :not(#checkbox){
+    height: 47px;
+
+}
+.same-address-checkbox input{
+    width: 4%;
+ }
+.expiry{
+    padding: 8px 63px 8px 0;
+    border-bottom: 1px solid #ccc;
+} 
+.payment-details> input,select{
+    height: 47px;
+    border-bottom: 1px solid #ccc;
+}
+.cvv{
+    margin-top: 15px;
+}
+
+.details input:not(#checkbox){
+height: 47px;
+}
+.different-address{
+    /* margin-left: 24px; */
+}
+#checkbox{
+    width: 20px;
+}
+.checkbox-flex{
+    display: flex;
+}
+#button{
+    background: white;
+    border: 2px solid;
+}
+.btn{
+    width: 192px;
+    height: 36px;
 }

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <div class="menu-img">
+                <div class="empty"></div>
+                <img src="images/menu.png" alt="">
+            </div>
+            <div>
+                <a href="#">
+                    <strong>SHOP</strong>
+                </a>
+            </div>
+            <div class="cart-icon">
+
+                <img src="images/cart.png" alt="">
+
+            </div>
+
+        </div>
+
+    </header>
+    <!------------------------------------>
+
+    <section class="page-heading">
+        <p>
+            <span>
+                <b>Checkout</b>
+            </span>
+            <br>
+            <span>is a demo app - form data will not be sent</span>
+        </p>
+    </section>
+
+    <section class="form-section">
+        <section class="details">
+            <div class="account-information">
+                <h2>Account Information</h2>
+                <input type="email" name="email" placeholder="Email">
+                <input type="text" placeholder="Phone Number">
+            </div>
+
+            <div class="shipping-address">
+                <h2>Shipping Address</h2>
+                <input type="text-area" name="address" placeholder="Address">
+                <input type="text" name="city" placeholder="City">
+                <input type="text" name="state" placeholder="State/Province">
+                <input type="text" name="pincode" placeholder="Zip/Postal Code">
+                <label for="">country</label>
+                <div>
+                    <select class="country"name="" id="">
+                        <option value="Canada">Canada</option>
+                        <option value="United States">United States</option>
+                    </select>
+                </div>
+                <div>
+                    <h2>Billing Address</h2>
+                    <div class="checkbox-flex">
+                    <input type="checkbox" id="checkbox" >
+                    <label class="different-address"for="">Use different billing address</label>
+                </div>
+                </div>
+            </div>
+          
+        </section>
+        
+        <section class="payment-details">
+            <h2>Payment Method</h2>
+           
+            <input type="text" name="cardholder" placeholder="Cardholder Name">
+            <input type="text" name="card_number" placeholder="Card Number">
+            <label for="">Expiry</label>
+            <section class="card-details">
+                
+                <div>
+                    <select name="" class="expiry">
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Apr </option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July </option>
+                        <option value="8">Aug </option>
+                        <option value="9"> Sep</option>
+                        <option value="10">Oct </option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dec</option>
+                    </select>
+                </div>
+                <div>
+                    <select name="#" class="expiry">
+                        
+                        <option value="1">2018</option>
+                        <option value="2">2017</option>
+                        <option value="3">2016</option>
+                        <option value="4">2015</option>
+                        <option value="5">2014</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="cvv" type="text" placeholder="CVV">
+                </div>
+            </section>
+            <div class="order-summary">
+
+                <h2>Order Summary</h2>
+                <div class="order-item-list">
+                    <span class="item-name">YouTube Ultimate Hooded Sweatshirt</span>
+                    <span class="item-price" style="float:right">20.45</span>
+                </div>
+                <div class="order-total-price">
+                    <span class="total">Total</span>
+                    <span class="total-price" style="float:right">20.45</span>
+                </div>
+
+            </div>
+            <div class="btn">
+                <input type="button" id="button" value="PLACE ORDER ">
+            </div>
+        </section>
+    </section>
+
+
+
+
+    <!------------------------------------------>
+    <footer>
+        <a href="#">Made by Polymer</a>
+        <div>
+            <p>DEMO ONLY</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
