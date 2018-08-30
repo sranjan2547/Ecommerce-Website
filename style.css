@@ -40,11 +40,12 @@ header>div {
 .empty {
     width: 10px;
     height: 10px;
+    display: none;
 }
 
 .cart-icon {
     width: 3%;
-    margin-top: -7px;
+    /* margin-top: -7px; */
 }
 
 .cart-icon img {
@@ -103,6 +104,11 @@ nav>div {
     align-items: center;
     margin-bottom: 27px
 }
+.mens-outerwear h2, .ladies-outerwear h2, .tshirts h2{
+margin: 24px 0;
+text-align: center;
+}
+
 
 h2 {
     color: #202020;
@@ -150,9 +156,7 @@ footer a {
     color: #080808b5;
 }
 
-.mens-outerwear>div h2 {
-    margin-bottom: 0;
-}
+
 
 .select-items {
     display: grid;
@@ -184,8 +188,14 @@ footer a {
     justify-content: center;
     margin: 0 auto;
     padding: 0 24px 48px 24px;
-    max-width: 900px;
+    max-width: 1180px;
     overflow: hidden;
+}
+.product-section-div{
+    margin: 22px 0;
+}
+.left-allign-text{
+    text-align: left;
 }
 
 .product-section select {
@@ -456,4 +466,19 @@ height: 47px;
 }
 .form-section{
     margin-top: 45px;
+}
+.mens-outerwear-im img{
+    width: 100%;
+}
+@media (max-width: 770px){
+    nav{
+        display: none;
+    }
+    .menu-img img {
+        display: block;
+        
+    }
+    .mens-outerwear-im img{
+        display: none;
+    }
 }
