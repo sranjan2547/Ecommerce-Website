@@ -362,9 +362,7 @@ margin-left: 80px;
 .form-section input{
     display: block;
     width: 100%;
-    border-top: none;
-    border-left: none;
-    border-right: none;
+    border: none;
     border-bottom: 1px solid #ccc;
     padding: 8px 0;
     outline: none;
@@ -424,4 +422,28 @@ height: 47px;
 .btn{
     width: 192px;
     height: 36px;
+}
+.page-heading{
+    margin-top: 64px;
+}
+.page-heading b{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.form-section h2{
+    font-size: 100%;
+    font-weight: 600;
+}
+.form-section input:focus{
+   
+    border-bottom: 2px solid black;
+}
+#demo-text{
+    color:#0c0c0ca1;
+}
+.order-total-price{
+    margin: 28px 0;
+}
+.country{
+    width: 100%;
 }
