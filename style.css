@@ -42,12 +42,24 @@ header>div {
 .empty {
     width: 30px;
     height: 0px;
-    /* display: none; */
-}
+ }
 
 .cart-icon {
     width: 3%;
-    /* margin-top: -7px; */
+ 
+}
+
+.two-image-fit-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.two-image-fit-cover-two-image img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .cart-icon img {
@@ -63,14 +75,13 @@ header>div {
 }
 
 .tshirts img {
-    width: 100%;
-   
-}
-.two-image-fit-cover{
-    width:100%;
-    height:240px
+ 
 }
 
+.two-image-fit-cover {
+    width: 100%;
+    height: 240px
+}
 
 a {
     text-decoration: none;
@@ -101,8 +112,7 @@ nav>div {
     justify-content: center;
     margin-bottom: 10px;
     color: #202020;
-    /* margin: 0 38%; */
-}
+ }
 
 .mens-outerwear,
 .ladies-outerwear {
@@ -460,9 +470,6 @@ select {
     height: 47px;
 }
 
-.different-address {
-    /* margin-left: 24px; */
-}
 
 #checkbox {
     width: 20px;
@@ -532,10 +539,12 @@ select {
 .cart-items .quantity {
     padding-top: 12px;
 }
-.checkout-box-mid-screen{
+
+.checkout-box-mid-screen {
     display: none;
 }
-.mid-screen-place-order{
+
+.mid-screen-place-order {
     display: none;
 }
 
@@ -568,10 +577,6 @@ select {
     .product-section div {
         width: 100%;
     }
-    /* .product-section-div h1,p{
-        margin: 22px 0;
-        max-width: 100%;
-        padding-left: 23px; */
     .product-section div {
         width: 85%;
         padding: 0px 0 0 50px;
@@ -619,60 +624,58 @@ select {
     .empty {
         display: none;
     }
-    .checkout-box-mid-screen{
+    .checkout-box-mid-screen {
         width: 100%;
-        height :64px;
+        height: 64px;
         display: block;
         margin-top: 325px;
         position: absolute;
         bottom: 0;
     }
-    .checkout-box-mid-screen button{
+    .checkout-box-mid-screen button {
         width: 100%;
         height: 100%;
         background-color: #232373;
     }
-    .checkout-box-mid-screen button a{
-    color: #ffff;
+    .checkout-box-mid-screen button a {
+        color: #ffff;
     }
-    .btn-for-product-midscreen{
-       
+    .btn-for-product-midscreen {
         width: 100%;
         bottom: 0;
     }
     product-footer {
-        margin-top:0%;
+        margin-top: 0%;
     }
     .page-heading {
-         margin-top: 0;
+        margin-top: 0;
     }
-    .checkout-page-footer{
+    .checkout-page-footer {
         display: none;
     }
     .form-section {
         flex-direction: column;
     }
-    .payment-details{
+    .payment-details {
         margin-left: 0;
     }
-    .btn{
+    .btn {
         display: none;
     }
-    .mid-screen-place-order{
+    .mid-screen-place-order {
         width: 100%;
         display: block;
         height: 64px;
         position: fixed;
         bottom: 0;
     }
-    .mid-screen-place-order button{
+    .mid-screen-place-order button {
         display: block;
-        width:100%;
+        width: 100%;
         height: 64px;
         background-color: #1f1f7b;
-        
-        
     }
-    
-
+    .checkout-box>div span {
+        margin: 0 -22px 0 24px;
+    }
 }
