@@ -37,3 +37,15 @@
     font-weight: lighter;
     font-size: 122%;
 }
+@media (max-width: 770px){
+.two-image-fit-cover-mens-outerwear {
+    display: none;
+}
+.select-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    padding: 0px 20px;
+}
+
+}

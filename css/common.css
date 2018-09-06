@@ -48,6 +48,9 @@ header>div {
 .cart-icon img {
     width: 100%;
 }
+.heading-shop{
+    padding: 0 0 0 30px;
+}
 footer {
     display: flex;
     flex-direction: column;
@@ -92,4 +95,19 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+@media (max-width: 770px) {
+    .menu-img img {
+        display: block;
+        width: 30px;
+        
+    }
+    nav {
+        display: none;
+    }
+    .heading-shop{
+        padding: 0px 0px 0px 0px;
+    }
+    
+    
 }

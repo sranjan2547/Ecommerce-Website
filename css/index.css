@@ -21,10 +21,15 @@
     height: 100%;
     object-fit: cover;
 }
+.cart-icon{
+    width: 30px;
+    height: 30px;
+}
 
 .cart-icon img {
     width: 100%;
 }
+
 
 .mens-outerwear-img img {
     width: 100%;
@@ -44,12 +49,7 @@ a {
     color: black;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 19px;
-    margin-bottom: 9px;
-}
+
 
 nav>div {
     margin: 10px;
