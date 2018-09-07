@@ -1,21 +1,12 @@
-.two-image-fit-cover-mens-outerwear {
-    width: 100%;
-    height: 240px;
-}
 
-.two-image-fit-cover-mens-outerwear img {
+
+.cover-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.two-image-fit-cover img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.two-image-fit-cover-two-image img {
+.cover-image-bottom img {
     float: left;
     width: 50%;
     height: 100%;
@@ -31,15 +22,7 @@
 }
 
 
-.mens-outerwear-img img {
-    width: 100%;
-}
-
-.ladies-outerwear-img img {
-    width: 100%;
-}
-
-.two-image-fit-cover {
+.cover-image {
     width: 100%;
     height: 240px;
 }
@@ -55,9 +38,7 @@ nav>div {
     margin: 10px;
 }
 
-.shop-now {
-    border: solid black;
-}
+
 
 .shop-now {
     border: 2px solid black;
@@ -97,10 +78,7 @@ h2 {
     flex-direction: row;
 }
 
-.tshirt-images>div img {
-    opacity: 1;
-    transition: opacity 0.5s ease 0s;
-}
+
 
 .bottom-buttons {
     display: flex;

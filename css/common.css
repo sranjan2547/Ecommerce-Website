@@ -13,10 +13,7 @@ body {
     display: none;
 }
 
-.empty {
-    height: 30;
-    width: 30;
-}
+
 .heading>div a {
     font-size: 16px;
     font-weight: 600;

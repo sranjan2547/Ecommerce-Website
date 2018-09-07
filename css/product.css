@@ -13,7 +13,7 @@
     padding-left: 23px;
 }
 
-.left-allign-text {
+.description-text {
     text-align: left;
 }
 
@@ -84,6 +84,9 @@
 .btn-for-product-midscreen{
     display: none;
 }
+.price-of-product{
+    text-align: left;
+}
 
 @media (max-width: 770px){
 .product-section {
@@ -109,9 +112,7 @@
 .product-section>div>h1 {
     margin: 0 0 0 23px;
 }
-.allin-text {
-    margin-left: 28px;
-}
+
 .drop-down button {
 display: none;
 }
@@ -132,5 +133,8 @@ display: none;
 }
 .btn-for-product-midscreen a {
     color: white;
+}
+.price-of-product{
+    margin-left: 28px;
 }
 }
