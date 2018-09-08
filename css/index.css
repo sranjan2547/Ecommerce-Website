@@ -1,5 +1,3 @@
-
-
 .cover-image img {
     width: 100%;
     height: 100%;
@@ -12,7 +10,8 @@
     height: 100%;
     object-fit: cover;
 }
-.cart-icon{
+
+.cart-icon {
     width: 30px;
     height: 30px;
 }
@@ -20,7 +19,6 @@
 .cart-icon img {
     width: 100%;
 }
-
 
 .cover-image {
     width: 100%;
@@ -32,13 +30,9 @@ a {
     color: black;
 }
 
-
-
 nav>div {
     margin: 10px;
 }
-
-
 
 .shop-now {
     border: 2px solid black;
@@ -77,8 +71,6 @@ h2 {
     display: flex;
     flex-direction: row;
 }
-
-
 
 .bottom-buttons {
     display: flex;
