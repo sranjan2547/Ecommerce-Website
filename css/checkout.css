@@ -127,6 +127,13 @@ select {
     width: 100%;
     font-size: 16px;
 }
+.country-div{
+    padding-top: 16px;
+}
+.country-div label{
+    margin-left: 4px;
+}
+
 
 .form-section {
     margin-top: 45px;
@@ -164,6 +171,7 @@ p {
 
 .country {
     padding-bottom: 10px;
+    height: 27px;
 }
 
 @media (max-width: 770px) {
